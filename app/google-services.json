@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1094084180323",
+    "firebase_url": "https://fir-curdapp.firebaseio.com",
+    "project_id": "fir-curdapp",
+    "storage_bucket": "fir-curdapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094084180323:android:7d7a9e24dd6f2fc1",
+        "android_client_info": {
+          "package_name": "com.firebase.curd.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094084180323-tqu06temdmbgfndqpmit9rd4qr145nu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.curd.app",
+            "certificate_hash": "bfc6dc6a9add56e6e4f1e5966f3dad0f24fac5af"
+          }
+        },
+        {
+          "client_id": "1094084180323-2actpmt1iv3k3f7uhgm3u81lm00tm45e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEtxA6G8slJyWsgJTHEAQaOq3udIMQl10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094084180323-2actpmt1iv3k3f7uhgm3u81lm00tm45e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

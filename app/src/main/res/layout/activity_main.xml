@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorGray"
+        android:layout_marginBottom="50dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:text="@string/tagNoUserMsg"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:background="@color/colorGray"
+            android:layout_margin="8dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add User"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:padding="16dp" />
+</RelativeLayout>
+
+
+
